@@ -3,16 +3,60 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Estructura básica</title>
+    <title>Cafetería Las Horas</title>
     <style>
-        h1 {color:blue; font-family:verdana; font-size:300%}
-        p {color:red; font-family:courier; font-size:160%}
+
+        body{
+            background-color: #F5E3CF;
+        }
+
+        h1#titulo{
+            font-weight: bold;
+            font-size: 70px;
+            font-family: Verdana;
+            color: #61210B;
+            text-align: center;
+        }
+        
+        p.enlaceIzq{
+            font-size: 200%;
+            text-align: left;
+        }
+
+        p.enlaceCen{
+            font-size: 200%;
+            text-align: center;
+        }
+
+        p.enlaceDer{
+            font-size: 200%;
+            text-align: right;
+        }
+
     </style>
 </head>
 
 <body>
-    <h1>Encabezado</h1>
-    <p>Párrafo.</p>
+    <header>
+        <h1 id="titulo">Cafetería Las Horas</h1>
+    </header>
+    <hr>
+    <main>
+        <article></article>
+            <p class="enlaceIzq"><a href="lacarta.html" target="_blank">La Carta </a><a href="lacarta.html"><img  src="img/carta.png"  width="20%" height="20%"></a></p><br>
+        </article>
+        <article>
+                <p class="enlaceCen"><a href="elcafe.html" target="_blank">El Café </a><a href="elcafe.html"><img  src="img/cafe.png"  width="20%" height="20%"></a></p><br>
+        </article>
+        <article>
+                <p class="enlaceDer"><a href="contacto.html" target="_blank">Contacto </a><a href="contacto.html"><img  src="img/contacto.png"  width="20%" height="20%"></a></p><br>
+        </article>
+    </main>
+    <hr>
+    <footer>
+
+    </footer>
+    
 </body>
 
 </html>
